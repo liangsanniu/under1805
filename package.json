@@ -1,0 +1,22 @@
+{
+  "name": "under1805",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liangsanniu/under1805.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liangsanniu/under1805/issues"
+  },
+  "homepage": "https://github.com/liangsanniu/under1805#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}

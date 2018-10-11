@@ -1,0 +1,120 @@
+/* 轮播图 */
+
+/*showImg*/
+.showImg{
+    position: relative;
+    width: 100%;
+    height: 590PX;
+    overflow-x: hidden;
+}
+#box{
+    width: 100%;
+    height: 590PX;
+    overflow: hidden;
+}
+#btns{
+    list-style: none;
+    position: absolute;
+    left: 48%;
+    bottom: 20px;
+}
+#btns li{
+    float:left;
+    width:10px;
+    height: 10px;
+    margin-right: 10px;
+    background-color: #eee;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+.BoxOne{
+    position: absolute;
+    left:100%;
+    top:0px;
+    width: 100%;
+    height: 590PX;
+}
+.BoxOne img{
+    width: 100%;
+    height: 590PX;
+}
+.BoxOne:nth-child(1){
+    left:0px;
+    top:0px;
+}
+.BuyP{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 140px;
+    height: 50px;
+    line-height: 48px;
+    border: 1px solid #fff;
+    text-align: center;
+    background: #fff;
+    display: block;
+    color: #000;
+    
+}
+.BuyP1{
+    top: 63%;
+    left: 45%;
+}
+.BuyP21{
+    top: 50%;
+    left: 60%;
+}
+.BuyP22{
+    top: 50%;
+    left: 74%;
+}
+.BuyP3{
+    left: 24%;
+    top: 65%;
+}
+.BuyP:hover{
+    transition: all 0.7s;
+    background: #000000;
+    color: #fff;
+}
+/* 中心内容顶部 */
+.Text_Box{
+    width: 100%;
+}
+.Text_Box_Box{
+    margin:40px auto 50px ;
+    text-align: center;
+}
+.NewP{
+    font-size: 24px;
+}
+.HBox{
+    overflow: hidden;
+    text-align: center;
+    margin: 8px auto 37px;
+}
+.HBox h1{
+    display: inline-block;
+    font-size: 48px;
+    font-weight: bold;
+}
+.HBox h1:last-child{
+    padding-left: 20px;
+}
+.Text_P{
+    overflow: hidden;
+    text-align: center;
+}
+.Text_p{
+    display: inline-block;
+    min-width: 140px;
+    height: 50px;
+    border: 2px solid #000000;
+    line-height: 46px;
+    margin: 0 15px;
+}
+.Text_p:hover{
+    transition: all 0.6s;
+    background: #000000;
+    color: #fff;
+}	

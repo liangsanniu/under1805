@@ -123,3 +123,12 @@ function UN(str){
         return document.getElementsByTagName(str);
     }
 }
+
+$(".Buygoods").each(function(){
+        $(this).hover(function(){
+            $(this).siblings(".BgPic").css({opacity:0.3});
+        },function(){
+            $(this).siblings(".BgPic").css({opacity:""});
+        });
+    }
+)

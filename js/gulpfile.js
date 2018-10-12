@@ -8,7 +8,7 @@ gulp.task("copy-index",function(){
     gulp.src("../font/**/*")
     .pipe(gulp.dest("D:\\phpStudy\\WWW\\under\\font"));
     gulp.src("../index.html")
-    .pipe(gulp.dest("D:\\phpStudy\\WWW\\under"));
+    .pipe(gulp.dest("D:\\phpStudy\\WWW\\under")); 
 });
 
 gulp.task("copy-img", function () {
@@ -21,5 +21,5 @@ gulp.task("watchall",function(){
     gulp.watch("../js/**/*", ["copy-index"]);
     gulp.watch("../img/**/*",["copy-img"]);
     gulp.watch("../index.html",["copy-index"]);
-})
+});
 

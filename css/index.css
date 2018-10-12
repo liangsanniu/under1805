@@ -117,4 +117,140 @@
     transition: all 0.6s;
     background: #000000;
     color: #fff;
-}	
+}
+
+/* 图片展示区域一 */
+.ShowBox{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.ShowImgBox{
+    width: 50%;
+    height: auto;
+    float: left;
+    position: relative;
+}
+.ShowImgBox1{
+    width: 100%;
+    height: auto;
+}
+.BoxImg{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.Hidbox{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #000000;
+    opacity: 0;
+}
+.BoxImg img{
+    width: 100%;
+    height: auto;
+}
+.Hidbox img{
+    visibility: hidden;
+}
+.BoxImgP{
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    line-height: 36px;
+    border: 1px solid #fff;
+    color: #fff;
+    top: 0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    z-index: 10;
+    opacity: 0;
+}
+.ShowImgBox:hover .BoxImgP{
+    opacity: 1;
+}
+.Hidbox:hover {
+    opacity: 0.3;
+}
+.BoxImgP:hover{
+    background: #fff;
+    color: #000000;
+}
+.BoxP{
+    text-align: center;
+}
+.BoxP:first-child{
+    font-weight: bold;
+    font-size: 28px;
+    padding: 18px 0 8px;
+}
+.BoxP:last-child{
+    font-size: 14px;
+    color: #4c4c4c;
+}
+/* 图片展示区域二 */
+.showbox2{
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+}
+.ShowImgBox2{
+    width: 100%;
+    height: auto;
+}
+.ShowImgBox2_1{
+    position: relative;
+}
+.ShowImgBox2_1 img{
+    width: 100%;
+    height: auto;
+}
+.BgPic img{
+    width: 100%;
+    height: auto;
+    visibility: hidden;
+}
+.BgPic{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #000000;
+    opacity: 0;
+}
+.BgPic:hover{
+    opacity: 0.3;
+}
+.Buygoods{
+    position: absolute;
+    bottom: 65px;
+    left: 43%;
+    border: 1px solid #fff;
+    min-width: 140px;
+    height: 40px;
+    line-height: 36px;
+    text-align: center;
+    opacity: 0;
+}
+.Buygoods a{
+    color: #fff;
+}
+.ShowImgBox2:hover .Buygoods{
+    opacity: 1;
+}
+.Buygoods:hover{
+    background: #fff;
+}
+.Buygoods:hover a{
+    color: #000000;
+}
+.RecoP{
+    padding: 18px 0 8px;
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+}
+

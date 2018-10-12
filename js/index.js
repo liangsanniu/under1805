@@ -123,7 +123,7 @@ function UN(str){
         return document.getElementsByTagName(str);
     }
 }
-
+// 图片展示区域二
 $(".Buygoods").each(function(){
         $(this).hover(function(){
             $(this).siblings(".BgPic").css({opacity:0.3});
@@ -131,4 +131,13 @@ $(".Buygoods").each(function(){
             $(this).siblings(".BgPic").css({opacity:""});
         });
     }
+)
+// 图片展示区域三
+$(".slideP").each(function () {
+    $(this).hover(function () {
+        $(this).siblings(".slideBox").css({ opacity: 0.3 });
+    }, function () {
+        $(this).siblings(".slideBox").css({ opacity: "" });
+    });
+}
 )

@@ -193,7 +193,7 @@
     color: #4c4c4c;
 }
 /* 图片展示区域二 */
-.showbox2{
+.Showbox2{
     width: 100%;
     height: auto;
     margin-bottom: 50px;
@@ -224,7 +224,7 @@
 .BgPic:hover{
     opacity: 0.3;
 }
-.Buygoods{
+.Showbox2Buy{
     position: absolute;
     bottom: 65px;
     left: 43%;
@@ -235,7 +235,7 @@
     text-align: center;
     opacity: 0;
 }
-.Buygoods a{
+.Showbox2Buy a{
     color: #fff;
 }
 .ShowImgBox2:hover .Buygoods{
@@ -252,5 +252,65 @@
     font-weight: bold;
     font-size: 28px;
     text-align: center;
+}
+/* 图片区域展示三 */
+.Showbox3{
+    width: 100%;
+}
+.ShowImgBox3{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 50px;
+}
+.banner_sun{
+    width: 32.5%;
+    height: auto;
+}
+.banner_sun img{
+    width: 100%;
+    height: auto;
+}
+.bannerImg{
+    position: relative;
+}
+.Showbox3Buy{
+    position: absolute;
+    max-width: 140px;
+    height: 40px;
+    line-height: 38px;
+    border: 1px solid #fff;
+    color: #fff;
+    top: 0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    display: none;
+}
+.Showbox3Buy a{
+    color: #fff;
+}
+.banner_sun:hover .Buygoods{
+    display: block;
+}
+.Buygoods:hover{
+    background: #fff;
+}
+.Buygoods:hover a{
+    color: #000000;
+}
+.bannerP1{
+    font-weight: bold;
+    font-size: 26px;
+    margin: 18px 0 8px;
+}
+.bannerP2{
+    font-size: 18px;
+    color: #4c4c4c;
 }
 

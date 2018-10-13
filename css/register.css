@@ -1,0 +1,166 @@
+/* 登录部分 */
+.Login{
+    box-sizing: border-box;
+    width: 100%;
+}
+.LoginBox{
+    margin-top: 70px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #1d1d1d;
+    padding: 0 20px;
+    max-width: 1230px;
+    overflow: hidden;
+}
+
+/*LoginLeft*/
+.LoginLeft{
+    width: 50%;
+    float: left;
+    border-right: 1px solid #eee;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+.LoginLeft h3{
+    font-size: 28px;
+    margin-bottom: 35px;
+    font-weight: 500;
+}
+.eMailPhone{
+    margin-bottom: 51px;
+    box-sizing: border-box;
+    position: relative;
+}
+.eMailPhone input{
+    width: 68%;
+    max-width: 374px;
+    height: 22px;
+    padding: 12px;
+    color: #1d1d1d;
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px solid #c7c7c7;
+}
+#EmPhMsg{
+    position: absolute;
+    font-size: 12px;
+    line-height: 20px;
+    color: #e52837;	
+    display: block;
+}
+
+
+.PassBox{
+    margin-bottom: 35px;
+    box-sizing: border-box;
+    position: relative;
+}
+.PassBox input{
+    width: 68%;
+    max-width: 374px;
+    border-color: #c7c7c7;
+    height: 22px;
+    padding: 12px;
+    color: #1d1d1d;
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px solid #c7c7c7;
+}
+#PassMsg{
+    position: absolute;
+    font-size: 12px;
+    line-height: 20px;
+    color: #e52837;	
+    display: block;
+}
+
+
+.CheckBox{
+    width: 68%;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 35px;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+.CheckBox input{
+    position: relative;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #000;
+    line-height: 24px;
+    font-size: 14px;
+    vertical-align: middle;
+}
+.spanMsg{
+    margin-left: 8px;
+    cursor: pointer;
+    line-height: 24px;
+    font-size: 14px;
+}
+.CheckBox a{
+    color: #1d1d1d;
+    line-height: 14px;
+    text-decoration: underline;
+    margin-top: 5px;
+    float: right
+}
+.LoginA{
+    width: 68%;
+    height: 60px;
+    max-width: 400px;
+    background-color: #ea212e;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 24px;
+    color: #fff;
+    line-height: 60px;
+    display: block;
+    cursor: pointer;
+}
+.LoginA:hover{
+    background: #000;
+}
+
+
+/*LoginRight*/
+.LoginRight{
+    width: 50%;
+    padding-left: 16%;
+    float: left;
+    box-sizing: border-box;
+}
+.LoginRight h3{
+    font-size: 28px;
+    margin-bottom: 48px;
+    font-weight: 500;
+}
+.LoginRight p{
+    font-size: 14px;
+    margin-bottom: 31px;
+}
+.LoginRight ul{
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 116px;
+}
+.LoginRight ul li{
+    line-height: 22px;
+}
+.EnrollA{   
+    width: 100%;
+    height: 60px;
+    max-width: 400px;
+    text-align: center;
+    font-size: 24px;
+    color: #1d1d1d;
+    line-height: 60px;
+    display: block;
+    border: 2px solid #1d1d1d;
+    margin-bottom: 25px;
+}
+.EnrollA:hover{
+    background: #000000;
+    color: #fff;
+}

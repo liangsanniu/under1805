@@ -140,7 +140,7 @@
     height: auto;
     position: relative;
 }
-.Hidbox{
+.BgPic{
     position: absolute;
     left: 0;
     top: 0;
@@ -151,10 +151,10 @@
     width: 100%;
     height: auto;
 }
-.Hidbox img{
+.BgPic img{
     visibility: hidden;
 }
-.BoxImgP{
+.Showbox1Buy{
     position: absolute;
     width: 140px;
     height: 40px;
@@ -170,14 +170,23 @@
     z-index: 10;
     opacity: 0;
 }
-.ShowImgBox:hover .BoxImgP{
+.ShowImgBox:hover .Buygoods{
     opacity: 1;
 }
-.Hidbox:hover {
+.Showbox1Buy a{
+    color: #fff;
+}
+.BgPic:hover {
     opacity: 0.3;
 }
-.BoxImgP:hover{
+.Buygoods:hover{
     background: #fff;
+    color: #000000;
+}
+.Buygoods:hover{
+    background: #fff;
+}
+.Buygoods:hover a{
     color: #000000;
 }
 .BoxP{
@@ -209,21 +218,6 @@
     width: 100%;
     height: auto;
 }
-.BgPic img{
-    width: 100%;
-    height: auto;
-    visibility: hidden;
-}
-.BgPic{
-    position: absolute;
-    left: 0;
-    top: 0;
-    background: #000000;
-    opacity: 0;
-}
-.BgPic:hover{
-    opacity: 0.3;
-}
 .Showbox2Buy{
     position: absolute;
     bottom: 65px;
@@ -240,12 +234,6 @@
 }
 .ShowImgBox2:hover .Buygoods{
     opacity: 1;
-}
-.Buygoods:hover{
-    background: #fff;
-}
-.Buygoods:hover a{
-    color: #000000;
 }
 .RecoP{
     padding: 18px 0 8px;

@@ -4,13 +4,13 @@ $(function () {
         $(".Li_One_Search").animate({
             width: 246
 
-        }, 500);
+        }, 200);
     });
 
     $(".Li_One_Search").blur(function () {
         $(".Li_One_Search").animate({
             width: 120
-        }, 500);
+        }, 200);
     });
 })
 // 导航栏固定

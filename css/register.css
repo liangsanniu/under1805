@@ -1,9 +1,9 @@
 /* 登录部分 */
-.Login{
+.register{
     box-sizing: border-box;
     width: 100%;
 }
-.LoginBox{
+.RegisterBox{
     margin-top: 70px;
     margin-bottom: 25px;
     margin-left: auto;
@@ -15,24 +15,24 @@
 }
 
 /*LoginLeft*/
-.LoginLeft{
+.RegisterLeft{
     width: 50%;
     float: left;
     border-right: 1px solid #eee;
     box-sizing: border-box;
     padding-left: 20px;
 }
-.LoginLeft h3{
+.RegisterLeft h3{
     font-size: 28px;
     margin-bottom: 35px;
     font-weight: 500;
 }
-.eMailPhone{
+.EmailPhone{
     margin-bottom: 51px;
     box-sizing: border-box;
     position: relative;
 }
-.eMailPhone input{
+.EmailPhone input{
     width: 68%;
     max-width: 374px;
     height: 22px;
@@ -42,7 +42,7 @@
     background-color: #fff;
     border: 1px solid #c7c7c7;
 }
-#EmPhMsg{
+#EmPhSpan{
     position: absolute;
     font-size: 12px;
     line-height: 20px;
@@ -67,7 +67,7 @@
     background-color: #fff;
     border: 1px solid #c7c7c7;
 }
-#PassMsg{
+#PassSpan{
     position: absolute;
     font-size: 12px;
     line-height: 20px;
@@ -93,7 +93,7 @@
     font-size: 14px;
     vertical-align: middle;
 }
-.spanMsg{
+.CheckSpan{
     margin-left: 8px;
     cursor: pointer;
     line-height: 24px;
@@ -106,7 +106,7 @@
     margin-top: 5px;
     float: right
 }
-.LoginA{
+.RegisterNow{
     width: 68%;
     height: 60px;
     max-width: 400px;
@@ -119,33 +119,33 @@
     display: block;
     cursor: pointer;
 }
-.LoginA:hover{
+.RegisterNow:hover{
     background: #000;
 }
 
 
 /*LoginRight*/
-.LoginRight{
+.RegisterRight{
     width: 50%;
     padding-left: 16%;
     float: left;
     box-sizing: border-box;
 }
-.LoginRight h3{
+.RegisterRight h3{
     font-size: 28px;
     margin-bottom: 48px;
     font-weight: 500;
 }
-.LoginRight p{
+.RegisterRight p{
     font-size: 14px;
     margin-bottom: 31px;
 }
-.LoginRight ul{
+.RegisterRight ul{
     font-size: 14px;
     line-height: 16px;
     margin-bottom: 116px;
 }
-.LoginRight ul li{
+.RegisterRight ul li{
     line-height: 22px;
 }
 .EnrollA{   

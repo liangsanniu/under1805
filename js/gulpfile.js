@@ -7,8 +7,8 @@ gulp.task("copy-index",function(){
     .pipe(gulp.dest("D:\\phpStudy\\WWW\\under\\css"));
     gulp.src("../font/**/*")
     .pipe(gulp.dest("D:\\phpStudy\\WWW\\under\\font"));
-    gulp.src("../index.html")
-    .pipe(gulp.dest("D:\\phpStudy\\WWW\\under")); 
+    gulp.src("../*.html")
+    .pipe(gulp.dest("D:\\phpStudy\\WWW\\under"));
 });
 
 gulp.task("copy-img", function () {

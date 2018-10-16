@@ -1,0 +1,368 @@
+/* 女子轮播图 */
+.showImg{
+    position: relative;
+    width: 100%;
+    height: 590PX;
+    overflow-x: hidden;
+}
+#box{
+    width: 100%;
+    height: 590PX;
+    overflow: hidden;
+}
+#btns{
+    list-style: none;
+    position: absolute;
+    left: 48%;
+    bottom: 20px;
+}
+#btns li{
+    float:left;
+    width:10px;
+    height: 10px;
+    margin-right: 10px;
+    background-color: #eee;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+.BoxOne{
+    position: absolute;
+    left:100%;
+    top:0px;
+    width: 100%;
+    height: 590PX;
+}
+.BoxOne img{
+    width: 100%;
+    height: 590PX;
+}
+.BoxOne:nth-child(1){
+    left:0px;
+    top:0px;
+}
+.BuyP{
+    display: block;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    min-width: 140px;
+    height: 50px;
+    line-height: 48px;
+    color: #000;  
+    border: 1px solid #fff;
+    background: #fff;   
+}
+.BuyP1{
+    top: 64%;
+    left: 65%;
+}
+.BuyP2{
+    top: 56%;
+    left: 44%;
+}
+.BuyP:hover{
+    transition: all 0.7s;
+    background: #000000;
+    color: #fff;
+}
+/* 推荐商品 */
+.Recommend{
+    width:100%;
+    height:auto;
+    position: relative;
+}
+.Rec_Look{
+    width:80%;
+    height:100%;
+    margin:0 auto; 
+    box-sizing: border-box;
+    position: relative;       
+}
+.Rec_TopP{
+    font-size:36px;
+    text-align:center;
+    color:#1d1d1d;
+    font-weight:bolder;
+    padding:63px 0 32px;
+}
+.Rec_Box{
+    width:100%;
+    height:100%;
+    margin-bottom: 50px;
+}
+.Rec_Pic{
+    width:100%;
+    height:auto;
+    position: relative;
+    overflow: hidden;  
+    margin:0 auto; 
+}
+.Rec_Ul{
+    width:150%;
+    height:auto;    
+}
+.Rec_Pic_Li{
+    width:16.666667%;
+    float:left;
+    text-align: center;
+}
+.Rec_Pic_Li img{
+    width:100%;
+    height:auto;
+}
+.Intro{
+    display: inline-block;
+    margin: 20px 0 11px;
+    font-size: 20px;
+    color: #1d1d1d;
+    max-width: 307px;    
+}
+.Pric{
+    font-size: 20px;
+    color: #1d1d1d;
+    margin-bottom: 21px;
+}
+.PicOne span{
+    display: inline-block;
+    visibility: hidden;
+    width: 160px;
+    height: 48px;
+    line-height: 44px;
+    font-size: 18px;
+    color: #1d1d1d;
+    background: #fff;
+    border: 2px solid #1d1d1d;
+}
+.Rec_Pic li:hover span{
+    visibility: visible;
+}
+.PicOne span:hover{
+    background: #000;
+    color: #fff;
+    transform: all 0.7s;
+}
+.RecLeft_Jt{
+    width: 30px;
+    height: 60px;
+    position: absolute;
+    left:0;
+    top:33%;
+    cursor: pointer;        
+}
+.RecLeft_Jt1{
+    display: block;
+    width:52px;
+    height:64px;
+    background:url(../img/womanimg/leftjt1.png) no-repeat left top;   
+}
+.RecLeft_Jt2{
+    display: none;
+    width:52px;
+    height:64px;
+    background:url(../img/womanimg/leftjt2.png) no-repeat left top;   
+}
+.RecRight_Jt{
+    width: 30px;
+    height: 60px;
+    position: absolute;
+    right:20px;
+    top:33%;
+    cursor: pointer;        
+}
+.RecRight_Jt1{
+    display: block;
+    width:52px;
+    height:64px;
+    background:url(../img/womanimg/rightjt1.png) no-repeat left top;    
+}
+.RecRight_Jt2{
+    display: none;
+    width:52px;
+    height:64px;
+    background:url(../img/womanimg/rightjt2.png) no-repeat left top;    
+}
+/* 图片展示区域一 */
+.ShowBox{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.ShowImgBox{
+    width: 50%;
+    height: auto;
+    float: left;
+    position: relative;
+}
+.ShowImgBox1{
+    width: 100%;
+    height: auto;
+}
+.BoxImg{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.BgPic{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #000000;
+    opacity: 0;
+}
+.BoxImg img{
+    width: 100%;
+    height: auto;
+}
+.BgPic img{
+    visibility: hidden;
+}
+.Showbox1Buy{
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    line-height: 36px;
+    border: 1px solid #fff;
+    color: #fff;
+    top: 0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    z-index: 10;
+    opacity: 0;
+}
+.ShowImgBox:hover .Buygoods{
+    opacity: 1;
+}
+.Showbox1Buy a{
+    color: #fff;
+}
+.BgPic:hover {
+    opacity: 0.3;
+}
+.Buygoods:hover{
+    background: #fff;
+    color: #000000;
+}
+.Buygoods:hover{
+    background: #fff;
+}
+.Buygoods:hover a{
+    color: #000000;
+}
+.BoxP{
+    text-align: center;
+}
+.BoxP:first-child{
+    font-weight: bold;
+    font-size: 28px;
+    padding: 18px 0 8px;
+}
+.BoxP:last-child{
+    font-size: 14px;
+    color: #4c4c4c;
+}
+/*图片展示区域二*/
+.bannerBox{
+    width: 100%;
+}
+.bannerGoods{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 50px;
+}
+.banner_sun{
+    width: 33.4%;
+    height: auto;
+}
+.banner_sun img{
+    width: 100%;
+    height: auto;
+}
+.bannerImg{
+    position: relative;
+}
+.slideBox{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #000;
+    opacity: 0;
+    width: 100%;
+}
+.slideBox img{
+    visibility: hidden;
+}
+.slideBox:hover{
+    opacity: 0.3;
+}
+.slideP{
+    position: absolute;
+    max-width: 140px;
+    height: 40px;
+    line-height: 38px;
+    border: 1px solid #fff;
+    color: #fff;
+    top: 0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    display: none;
+}
+.slideP a{
+    color: #fff;
+}
+.banner_sun:hover .slideP{
+    display: block;
+}
+.slideP:hover{
+    background: #fff;
+}
+.slideP:hover a{
+    color: #000000;
+}
+.bannerP1{
+    font-weight: bold;
+    font-size: 26px;
+    margin: 18px 0 8px;
+}
+.bannerP2{
+    font-size: 18px;
+    color: #4c4c4c;
+}
+/*分类列表*/
+.Product{
+    width: 100%;
+    border-top: 1px solid #e0e0e0;
+}
+.ProductBox{
+    margin: 0 auto;
+    max-width: 1290px;
+    padding: 44px 15px 50px;
+    clear: both;
+    overflow: hidden;
+}
+.equalBox{
+    width: 20%;
+    float: left;
+}
+.equalBox h3{
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+.equalBox li{
+    font-size: 16px;
+    color: #1d1d1d;
+    line-height: 32px;
+}
+
+

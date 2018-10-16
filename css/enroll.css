@@ -1,0 +1,345 @@
+/* 注册部分 */
+.Enroll{
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+.EnrollBox{
+    margin-top: 70px;
+    margin-bottom: 25px;
+    color: #1d1d1d;
+    overflow: hidden;
+}
+.Regi{
+    width: 100%;
+    max-width: 870px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.Regi h3{
+    font-size: 26px;
+    color: #1d1d1d;
+    margin-bottom: 34px
+}
+.RegiBox{
+    width: 100%;
+}
+
+
+/*RegiLeft*/
+.RegiLeft{
+    width: 50%;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.Email{    
+    width: 100%;
+    padding-left: 0;
+    padding-right: 35px;
+    box-sizing: border-box;
+    margin-bottom: 33px;
+    position: relative;
+}
+.Email p{
+    font-size: 16px;
+    color: #1d1d1d;
+    margin-bottom: 10px
+}
+.Email input{
+    width: 93%;
+    height: 22px;
+    padding: 12px;
+    color: #1d1d1d;
+    font-size: 14px;
+    border-radius: 0;
+    background-color: #fff;
+    border: 1px solid #c7c7c7;
+}
+#eMailMsg{
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    font-size: 12px;
+    line-height: 20px;
+    color: #e52837;
+    margin: 0;
+}
+
+
+.Pass{
+    width: 100%;
+    padding-right: 35px;
+    box-sizing: border-box;
+    margin-bottom: 33px;
+    position: relative;
+}
+.Pass p{
+    font-size: 16px;
+    color: #1d1d1d;
+    margin-bottom: 10px;
+}
+.Pass input{
+    width: 93%;
+    height: 22px;
+    padding: 12px;
+    color: #1d1d1d;
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px solid #c7c7c7;
+}
+#passMsg{
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    font-size: 12px;
+    line-height: 20px;
+    color: #e52837;
+    margin: 0;
+}
+
+
+.AffPass{
+    width: 100%;
+    padding-right: 35px;
+    box-sizing: border-box;
+    margin-bottom: 33px;
+    position: relative;
+}
+.AffPass p{
+    font-size: 16px;
+    color: #1d1d1d;
+    margin-bottom: 10px;
+}
+.AffPass input{
+    width: 93%;
+    height: 22px;
+    padding: 12px;
+    color: #1d1d1d;
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px solid #c7c7c7;
+}
+#AffPassMsg{
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    font-size: 12px;
+    line-height: 20px;
+    color: #e52837;
+    margin: 0;
+}
+
+
+
+/*RegiRight*/
+.RegiRight{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+.Phone{
+    width: 100%;
+    padding-left: 35px;
+    margin-bottom: 33px;
+    box-sizing: border-box;
+    position: relative;
+}
+.Phone p{
+    font-size: 16px;
+    color: #1d1d1d;
+    margin-bottom: 10px
+}
+.Phone input{
+    width: 93%;
+    height: 22px;
+    padding: 12px;
+    color: #1d1d1d;
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px solid #c7c7c7;
+}
+#PhoneMsg{
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    font-size: 12px;
+    line-height: 20px;
+    color: #e52837;
+    margin: 0;
+    padding-left: 35px;
+}
+
+
+
+.VerBox{
+    width: 100%;
+    padding-left: 35px;
+    margin-bottom: 33px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.VerBox p{
+    font-size: 16px;
+    color: #1d1d1d;
+    margin-bottom: 10px;
+}
+.VerBoxPic {
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+}
+.VerPic img{
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    height:48px;
+    width:104px;
+    border:1px solid #c7c7c7;
+}
+.VerInp{
+    width: 58%;
+    float: left;
+}
+.VerPic a{
+    font-size: 14px;
+    text-decoration: underline;
+    margin-left: 6px;
+}
+.VerInp input{
+    width: 88%;
+    height: 22px;
+    padding: 12px;
+    color: #1d1d1d;
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px solid #c7c7c7;
+}
+.VerPic{
+    float: right;
+    width: 157px;
+    height: 48px;
+}
+.PhoneVer{
+    width: 100%;
+    padding-left: 35px;
+    position: relative;
+}
+.PhoneVer p{
+    font-size: 16px;
+    color: #1d1d1d;
+    letter-spacing: 0;
+    margin-bottom: 10px;
+}
+.PhoneVer input{
+    width: 64%;
+    height: 22px;
+    padding: 12px;
+    color: #1d1d1d;
+    font-size: 14px;;
+    border: 1px solid #c7c7c7;
+}
+.SpanPhone{
+    display: inline-block;
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: 0;
+    background: #000;
+    line-height: 48px;
+    width: 97px;
+    height: 48px;
+    text-align: center;
+    opacity: .5;
+}
+#PhoneVerMsg{
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    font-size: 12px;
+    line-height: 20px;
+    color: #e52837;
+    margin: 0;
+    padding-left: 35px;
+}  
+.State{
+    float: left;
+    width: 100%;
+    padding-right: 35px;
+    margin-bottom: 33px;
+}
+.State a{
+    text-decoration: underline;
+}
+.State input{
+    width: 24px;
+    height: 24px;
+    background: #fff;
+    vertical-align: middle;
+}
+.StateTop{
+    line-height: 22px;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+.StateTop span{   
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.StateBottom{
+    line-height: 22px;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+.StateBottom span{   
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+
+.SubmitBox{
+    border-right: 1px solid #eee;
+    width: 100%;
+    float: left;
+    margin-bottom: 33px;
+    box-sizing: border-box;
+    /*height: 40px;*/
+}
+.SubmitLeft{
+    float: left;
+    width: 50%;
+    padding-right: 35px;
+    box-sizing: border-box;
+}
+.SubmitA{
+    display: block;
+    height: 60px;
+    max-width: 400px;
+    background-color: #ea212e;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 24px;
+    color: #fff;
+    line-height: 60px;
+    cursor: pointer;
+}
+.SubmitA:hover{
+    background: #000;
+}
+
+.SubmitRight{
+    width: 50%;
+    float: left;	
+    padding-left: 35px;		
+    box-sizing: border-box;	
+}
+.SubmitRight p{
+    font-size: 16px;
+    color: #1d1d1d;
+    line-height: 60px;
+    margin-bottom: 10px;
+}
+.SubmitRight a{
+    text-decoration: underline;
+}

@@ -25,8 +25,8 @@ $(function () {
     });
 })
 
-// 轮播图
-$(function () {
+// 女子轮播图
+$(function(){
     initUI();
     //顺序变换（自动播放）
     changeImg();
@@ -36,14 +36,14 @@ $(function () {
     let lis = UN("#btns").children;
     for (let i = 0; i < lis.length; i++) {
         lis[i].onclick = function () {
-            goImg(i + 1);
+            goImg(this.index);
         };
     }
 
 })
 
 //初始化UI
-function initUI() {
+function initUI(){
     let lis = UN("#btns").children;
     lis[0].style.backgroundColor = "gray";
 }
@@ -51,12 +51,12 @@ function initUI() {
 let myTimer;
 var ord = 1;//当前图片的序号
 //跳转到指定的图片上。
-function goImg(transOrd) {
+function goImg(transOrd){
     //1、改变数据
     let outOrd = ord;
     ord = transOrd;
     //2、处理边界
-    if (ord > 3) {
+    if (ord > 2){
         ord = 1;
     }
     //3、外观呈现
@@ -64,14 +64,14 @@ function goImg(transOrd) {
 }
 
 //自动播放
-function changeImg() {
+function changeImg(){
 
-    myTimer = setInterval(function () {
+    myTimer = setInterval(function(){
         //1、改变数据
         let outOrd = ord;
         ord++;
         //2、处理边界
-        if (ord > 3) {
+        if (ord > 2){
             ord = 1;
         }
         //3、外观呈现
@@ -80,9 +80,9 @@ function changeImg() {
 }
 
 //改变外观
-function changeUI(outOrd, inOrd) {
+function changeUI(outOrd, inOrd){
     let lis = UN("#btns").children;
-    for (let i = 0; i < lis.length; i++) {
+    for (let i = 0; i < lis.length; i++){
         lis[i].style.backgroundColor = "#eee";
     }
     lis[inOrd - 1].style.backgroundColor = "gray";
@@ -95,17 +95,17 @@ let mytimer = null;
 //两张图片的滑入滑出
 //outOrd:滑出图片的序号
 //inOrd:滑入图片的序号
-function changeImgUI(outOrd, inOrd) {
-    if(mytimer){ 
+function changeImgUI(outOrd, inOrd){
+    if (mytimer) {
         return;
     };
     let left1 = 0;
-    
-     mytimer = setInterval(function () {
+
+    mytimer = setInterval(function(){
         //1、改变数据
         left1 -= 15;
         //2、边界处理
-        if (left1 < -$(".BoxOne").width()) {
+        if (left1 < -$(".BoxOne").width()){
             left1 = -$(".BoxOne").width();
             window.clearInterval(mytimer);
             mytimer = null;
@@ -118,32 +118,44 @@ function changeImgUI(outOrd, inOrd) {
 
 function stopgo(){
     window.clearInterval(myTimer);
-    // window.clearInterval(mytimer);
 }
 
-function UN(str){
-    if(str.charAt(0) == "#"){
+function UN(str) {
+    if (str.charAt(0) == "#") {
         return document.getElementById(str.substring(1));
-    }else if(str.charAt(0) == "."){
+    }else if(str.charAt(0) == ".") {
         return document.getElementsByClassName(str.substring(1));
     }else{
         return document.getElementsByTagName(str);
     }
 }
+
 // 图片展示区域二
 $(".Buygoods").each(function(){
     $(this).hover(function(){
-        $(this).siblings(".BgPic").css({opacity:0.3});
-    },function(){
-        $(this).siblings(".BgPic").css({opacity:""});
+        $(this).siblings(".BgPic").css({ opacity: 0.3 });
+    }, function(){
+        $(this).siblings(".BgPic").css({ opacity: "" });
     });
 });
 
 // 图片展示区域三
-$(".slideP").each(function () {
-    $(this).hover(function () {
+$(".slideP").each(function(){
+    $(this).hover(function(){
         $(this).siblings(".slideBox").css({ opacity: 0.3 });
-    }, function () {
+    }, function(){
         $(this).siblings(".slideBox").css({ opacity: "" });
     });
 });
+
+// 推荐商品
+let leftjts = UN(".RecLeft_Jt")[0].children;
+let rightjts = UN(".RecRight_Jt")[0].children;
+$(function(){
+    jtstart();
+});
+
+function jtstart(){
+    leftjts[0].style.display = "block";
+    rightjts[0].style.display = "block";
+}
